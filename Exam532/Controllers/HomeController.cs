@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Exam532.Models;
 using Microsoft.AspNetCore.Mvc;
-using Exam532.Models;
+using System.Diagnostics;
 
 namespace Exam532.Controllers
 {
@@ -19,6 +15,11 @@ namespace Exam532.Controllers
         {
             ViewData["Message"] = "Your application description page.";
 
+            return View();
+        }
+
+        public IActionResult Test()
+        {
             return View();
         }
 
