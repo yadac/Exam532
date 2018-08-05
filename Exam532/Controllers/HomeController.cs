@@ -20,7 +20,7 @@ namespace Exam532.Controllers
 
         public IActionResult Test()
         {
-            return Content("this is test page");
+            return Content("this is test page!!!!");
         }
 
         public IActionResult Contact()
