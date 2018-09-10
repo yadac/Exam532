@@ -23,7 +23,7 @@ namespace Exam532.Controllers
             return Content("this is test page!!!!");
         }
 
-        public IActionResult Contact()
+        public IActionResult Contact()  
         {
             ViewData["Message"] = "Your contact page.";
 
